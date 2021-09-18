@@ -4,9 +4,56 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*MENU NAVEGAÇÃO*/
+
+/* LOGO */
+a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a:hover {
+    opacity: 0.7;
+    margin-top: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    justify-content: center;
+}
+
+/* NAVEGAÇÃO */
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+}
+
+.nav-list li {
+    color: #fff;
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+/*MENU NAVEGAÇÃO
 .menu{
     width: 100%;
     height: 50px;
@@ -45,12 +92,13 @@
 }
 .menu ul ul li a{
     background-color:#58555A;
-}
+}*/
+
 /* TÍTULO */
 main h1 {
     text-align: center;
     font-size: 3rem;
-    margin: 10px 20px 20px 20px;
+    margin: 100px 20px 20px 20px;
 }
 /* CONTEÚDO */
 body{
@@ -68,14 +116,28 @@ h2 {
     text-align: center;
     padding: 5px;
 }
-/* imagem da noticia 1 */
+/* imagem e videos das noticias*/
 .imagemnot1{
-    width: 200px;
+    width: 250px;
     float: left;
     padding-right: 10px;
     padding-top: 10px;
     padding-left: 10px;
 }
+.imagemnot2{
+    width: 400px;
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.videonot3{
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
 /* POSIÇÃO GRID */
 .container {
     margin: 10px 80px 100px 80px;
@@ -130,10 +192,35 @@ h2 {
         'item-1 item-2 item-3 item-4 item-5'
         'item-1 item-2 item-3 item-4 item-5';
 }
-.container-sobre img {
-    width:200px;
-    height:200px;
-    position:relative;
+.item-1 {
+    grid-area: item-1;
+    font-size: 16px;
+    justify-content: center;
+}
+.item-2 {
+    grid-area: item-2;
+    font-size: 16px;
+    justify-content: center;
+}
+.item-3 {
+    grid-area: item-3;
+    font-size: 16px;
+    justify-content: center;
+}
+.item-4 {
+    grid-area: item-4;
+    font-size: 16px;
+    justify-content: center;
+}
+.item-5 {
+    grid-area: item-5;
+    font-size: 16px;
+    justify-content: center;
+}
+.item-6 {
+    grid-area: item-6;
+    font-size: 16px;
+    justify-content: center;
 }
 /* RODAPÉ */
 footer {
@@ -150,4 +237,8 @@ footer p {
 .form{
 	display: flex;
 	justify-content: center;
+}
+#linkedin{
+    width: 20%;
+    height: 20%;
 }
