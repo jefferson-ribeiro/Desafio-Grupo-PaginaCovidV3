@@ -70,7 +70,7 @@ h2 {
 }
 /* imagem da noticia 1 */
 .imagemnot1{
-    width: 30%;
+    width: 200px;
     float: left;
     padding-right: 10px;
     padding-top: 10px;
@@ -91,21 +91,33 @@ h2 {
 }
 .item-1 {
     grid-area: item-1;
+    font-size: 16px;
+    justify-content: center;
 }
 .item-2 {
     grid-area: item-2;
+    font-size: 16px;
+    justify-content: center;
 }
 .item-3 {
     grid-area: item-3;
+    font-size: 16px;
+    justify-content: center;
 }
 .item-4 {
     grid-area: item-4;
+    font-size: 16px;
+    justify-content: center;
 }
 .item-5 {
     grid-area: item-5;
+    font-size: 16px;
+    justify-content: center;
 }
 .item-6 {
     grid-area: item-6;
+    font-size: 16px;
+    justify-content: center;
 }
 /* ABA SOBRE */
 .container-sobre {
