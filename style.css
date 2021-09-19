@@ -222,6 +222,14 @@ h2 {
     font-size: 16px;
     justify-content: center;
 }
+#linkedin{
+    width: 20%;
+    height: 20%;
+}
+.conteudo a{
+    color:black;
+    font-weight: bold;
+}
 /* RODAPÉ */
 footer {
 	height: 50px;
@@ -238,7 +246,14 @@ footer p {
 	display: flex;
 	justify-content: center;
 }
-#linkedin{
-    width: 20%;
-    height: 20%;
+
+/*Saiba Mais*/
+.conteudoM{
+    text-align: center;
+    margin-bottom: 300px;
+}
+.conteudoM a{
+    color: brown;
+    font-size: 22px;
+
 }
