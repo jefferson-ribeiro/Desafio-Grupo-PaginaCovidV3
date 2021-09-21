@@ -22,10 +22,11 @@ a:hover {
 }
 
 .logo {
-    font-size: 24px;
-    text-transform: uppercase;
+    font-size: 20px;
     letter-spacing: 4px;
     justify-content: center;
+    pointer-events: none;
+    color: orange;
 }
 
 /* NAVEGAÇÃO */
@@ -143,12 +144,12 @@ h2 {
 .container-sobre {
     margin: 10px 80px 100px 80px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px; /* ESPAÇO ENTRE AS GRIDS */
     grid-auto-rows:(50px,auto); /* TAMANHO DA GRID */
     grid-template-areas:
-        'item-1 item-2 item-3 item-4 item-5'
-        'item-1 item-2 item-3 item-4 item-5';
+        'item-1 item-2 item-3 item-4'
+        'item-1 item-2 item-3 item-4';
 }
 .item-1 {
     grid-area: item-1;
